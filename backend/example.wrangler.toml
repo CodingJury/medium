@@ -1,0 +1,7 @@
+name = "backend"
+compatibility_date = "2023-12-01"
+
+# CONNECTION POOL URL (prisma accelerate)
+[vars]
+DATABASE_URL="prisma-accelerate-url"
+JWT_SECRET = "some-custom-secret"
